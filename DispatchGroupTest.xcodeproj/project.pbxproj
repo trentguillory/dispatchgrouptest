@@ -12,6 +12,8 @@
 		84E01917205AA82C00CC171C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E01915205AA82C00CC171C /* Main.storyboard */; };
 		84E01919205AA82C00CC171C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E01918205AA82C00CC171C /* Assets.xcassets */; };
 		84E0191C205AA82C00CC171C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0191A205AA82C00CC171C /* LaunchScreen.storyboard */; };
+		84E01924205AA84400CC171C /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E01923205AA84400CC171C /* MockAPI.swift */; };
+		84E01926205AB50200CC171C /* DispatchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E01925205AB50200CC171C /* DispatchHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		84E01918205AA82C00CC171C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E0191B205AA82C00CC171C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E0191D205AA82C00CC171C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E01923205AA84400CC171C /* MockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPI.swift; sourceTree = "<group>"; };
+		84E01925205AB50200CC171C /* DispatchHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				84E01918205AA82C00CC171C /* Assets.xcassets */,
 				84E0191A205AA82C00CC171C /* LaunchScreen.storyboard */,
 				84E0191D205AA82C00CC171C /* Info.plist */,
+				84E01923205AA84400CC171C /* MockAPI.swift */,
+				84E01925205AB50200CC171C /* DispatchHelper.swift */,
 			);
 			path = DispatchGroupTest;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E01914205AA82C00CC171C /* ViewController.swift in Sources */,
+				84E01924205AA84400CC171C /* MockAPI.swift in Sources */,
 				84E01912205AA82C00CC171C /* AppDelegate.swift in Sources */,
+				84E01926205AB50200CC171C /* DispatchHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
